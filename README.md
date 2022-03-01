@@ -19,6 +19,11 @@ This library is 100% made by me, it does not contain rips, since its objective i
 
 NOTE: On the internet I found a lot of generic code, and many rips but I have not seen anyone implement this method nor in concepts, I guess many start with remote injections without first knowing how hooks, jumps, memory overwrite etc... works.
 
+My original post: https://indetectables.net/viewtopic.php?t=49340
+<br/>
+Date: 08 Mar 2014, 10:21 
+<br/>
+
 Code:
 ```C
 #include <windows.h>
