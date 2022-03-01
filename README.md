@@ -1,12 +1,19 @@
 Today I come with a new library that I have programmed for C/C++, this one has the function firstly, to demonstrate some concepts of Hooking, for now they only serve for the same process of the application in which it is executed, with the objective to redirect functions, to optimize memory gaps, and something more.
 
 In the future it will be expanded along with another mix of functions and remote hooks/injections, for now I will only demonstrate the following concepts that the library can do:
+<br/>
 [+] Hooke a function to jump to another one.
+<br/>
 [+] Unhook to restore the function.
+<br/>
 [+] Completely disassemble a function and read it in opcodes.
+<br/>
 [+] Get the exact size of a function.
+<br/>
 [+] NOP a function (Detect RET, i.e. it can exit without errors or access violations).
+<br/>
 [+] Write in an exact memory address, one or as many values as you want (dangerous operations).
+<br/>
 
 This library is 100% made by me, it does not contain rips, since its objective is to first understand and realize the features described above, and then be able to adapt it to another level.
 
