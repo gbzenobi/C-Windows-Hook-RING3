@@ -177,6 +177,8 @@ int main()
 }
 ```
 
+![1](/proofs/1.png)
+
 Hook and Unhook.
 
 ```C
@@ -195,6 +197,8 @@ UnhookMemoryAddress((int *)&xprintf, SaveBuffer);
 xprintf();
 ```
 
+![2](/proofs/2.png)
+
 Disassemble the function.
 
 ```C
@@ -211,6 +215,8 @@ for (int bytes=0; bytes<=funcSize; bytes++)
   printf("-0x%x\n", disBuf[bytes]);
 ```
 
+![3](/proofs/3.png)
+
 Write a memory area.
 
 ```C
@@ -224,8 +230,12 @@ BYTE writeBuff[]= {0x90, 0x90, 0x90};
 WriteMemory((int *)&xprintf, 3, (BYTE *)writeBuff);
 ```
 
+![4](/proofs/4.png)
+
 NOP the entire function up to RET(autodetect).
 ```C
 printf("Direccion funcion a nopear -> 0x%p\n\n", & xprintf);
 PoolNOPAddress((int *)&xprintf);
 ```
+
+![5](/proofs/5.png)
