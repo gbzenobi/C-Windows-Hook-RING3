@@ -2,27 +2,18 @@ Today I come with a new library that I have programmed for C/C++, this one has t
 
 In the future it will be expanded along with another mix of functions and remote hooks/injections, for now I will only demonstrate the following concepts that the library can do:
 <br/>
+```
 [+] Hooke a function to jump to another one.
-<br/>
 [+] Unhook to restore the function.
-<br/>
 [+] Completely disassemble a function and read it in opcodes.
-<br/>
 [+] Get the exact size of a function.
-<br/>
 [+] NOP a function (Detect RET, i.e. it can exit without errors or access violations).
-<br/>
 [+] Write in an exact memory address, one or as many values as you want (dangerous operations).
-<br/>
+```
 
 This library is 100% made by me, it does not contain rips, since its objective is to first understand and realize the features described above, and then be able to adapt it to another level.
 
 NOTE: On the internet I found a lot of generic code, and many rips but I have not seen anyone implement this method nor in concepts, I guess many start with remote injections without first knowing how hooks, jumps, memory overwrite etc... works.
-
-My original post: https://indetectables.net/viewtopic.php?t=49340
-<br/>
-Date: 08 Mar 2014, 10:21 
-<br/>
 
 Code:
 ```C
@@ -244,3 +235,10 @@ PoolNOPAddress((int *)&xprintf);
 ```
 
 ![5](/proofs/5.png)
+
+***
+
+My original post: https://indetectables.net/viewtopic.php?t=49340
+<br/>
+Date: 08 Mar 2014, 10:21 
+<br/>
