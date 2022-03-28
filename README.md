@@ -11,8 +11,6 @@ In the future it will be expanded along with another mix of functions and remote
 [+] Write in an exact memory address, one or as many values as you want (dangerous operations).
 ```
 
-This library is 100% made by me, it does not contain rips, since its objective is to first understand and realize the features described above, and then be able to adapt it to another level.
-
 NOTE: On the internet I found a lot of generic code, and many rips but I have not seen anyone implement this method nor in concepts, I guess many start with remote injections without first knowing how hooks, jumps, memory overwrite etc... works.
 
 Code:
